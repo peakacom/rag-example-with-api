@@ -15,7 +15,12 @@ export async function GET() {
   });
 
   const pineconeIndex = pc.index(process.env.PINECONE_INDEX!);
-  await pineconeIndex.deleteAll();
+
+  try {
+    await pineconeIndex.deleteAll();
+  } catch (e) {
+    console.log("Could not delete index");
+  }
 
   const peakaService = PeakaService.instance;
 
