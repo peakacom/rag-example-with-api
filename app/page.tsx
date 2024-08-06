@@ -88,10 +88,10 @@ export default function Chat() {
                 <div>Hello! 👋</div>
                 <div className="text-pretty w-2/3 text-center">
                   This is a rag pipeline is implemented with Peaka. The data is
-                  fetched from SpaceX public API's by using Peaka's Rest Table
-                  and uses Peaka's Pinecone connector to search for information
-                  in vector database using sql. Then the results are sent to
-                  OpenAI to generate the response.
+                  fetched from SpaceX public API&apos;s by using Peaka&apos;s
+                  Rest Table and uses Peaka&apos;s Pinecone connector to search
+                  for information in vector database using sql. Then the results
+                  are sent to OpenAI to generate the response.
                 </div>
 
                 <div className="text-pretty w-2/3 text-center">
