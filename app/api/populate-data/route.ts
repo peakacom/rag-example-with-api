@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { PeakaService } from "@/service/peaka.service";
 import { Pinecone } from "@pinecone-database/pinecone";
 import { NextResponse } from "next/server";

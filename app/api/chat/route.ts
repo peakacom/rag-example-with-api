@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { SPACEX_CHATBOT_INSTRUCTION } from "@/config/config";
 import { PeakaService } from "@/service/peaka.service";
 import { openai } from "@ai-sdk/openai";
