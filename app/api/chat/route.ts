@@ -5,8 +5,6 @@ import { openai } from "@ai-sdk/openai";
 import { OpenAIEmbeddings } from "@langchain/openai";
 import { streamText } from "ai";
 
-export const maxDuration = 30;
-
 export async function POST(req: Request) {
   const request = await req.json();
 
